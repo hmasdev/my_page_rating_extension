@@ -1,0 +1,6 @@
+{
+    "name": "Page Evaluation Extension",
+    "description" : "Enable you to evaluate pages in the search results page.",
+    "version": "0.0",
+    "manifest_version": 2
+  }
