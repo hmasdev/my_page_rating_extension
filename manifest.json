@@ -2,5 +2,12 @@
     "name": "Page Evaluation Extension",
     "description" : "Enable you to evaluate pages in the search results page.",
     "version": "0.0",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "permissions":[
+        "storage", "tabs"
+    ],
+    "browser_action":{
+        "default_title": "Page Evaluation",
+        "default_popup": "services/popup.html"
+    }
   }
