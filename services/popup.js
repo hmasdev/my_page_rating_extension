@@ -39,4 +39,12 @@ window.onload = function(){
             );
         });
     });
+
+    // show button
+    $("#show_button").on("click", function(){
+        chrome.tabs.create({
+            url: "services/table.html",
+            active: true,
+        }, function(){});
+    });
 }
