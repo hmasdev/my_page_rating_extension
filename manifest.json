@@ -1,13 +1,13 @@
 {
-    "name": "Page Evaluation Extension",
-    "description" : "Enable you to evaluate pages in the search results page.",
+    "name": "My Page Rating Extension",
+    "description" : "Enable you to rate pages in the search results page.",
     "version": "0.0",
     "manifest_version": 2,
     "permissions":[
         "storage", "tabs"
     ],
     "browser_action":{
-        "default_title": "Page Evaluation",
+        "default_title": "Page Rating",
         "default_popup": "services/popup.html"
     },
     "content_scripts":[

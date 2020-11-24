@@ -33,7 +33,7 @@ window.onload = function(){
                     }
                 }, 
                 function(){
-                    $("#submit_result").text('Succeeded in evaluation');
+                    $("#submit_result").text('Succeeded in rating');
                     $("#submit_result").addClass('alert alert-success');
                 }
             );
