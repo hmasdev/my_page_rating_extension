@@ -1,8 +1,10 @@
 # My Page Rating Extension
 
-Chrome extension which enables you to rate web sites and view the scores in Google search result page.
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/hmasdev/my_page_rating_extension)
+![GitHub](https://img.shields.io/github/license/hmasdev/my_page_rating_extension)
 
-===
+
+Chrome extension which enables you to rate web sites and view the scores in Google search result page.
 
 ## Background
 
