@@ -24,5 +24,13 @@
                 "site-packages/bootstrap.min.css"
             ]
         }
-    ]
-  }
+    ],
+    "commands": {
+        "_execute_browser_action": {
+          "suggested_key": {
+            "default": "Alt+Shift+R"
+          },
+          "description": "Opens page-rating popup."
+        }
+    }
+}
