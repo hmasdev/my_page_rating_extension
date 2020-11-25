@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Rating List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="table-responsive">
+    <table id="score_table" class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>Operation</th>
+          <th>Page Title</th>
+          <th>Score</th>
+          <th>Comment</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody id='records'>
+        
+      <tbody>
+    </table>
+  </div>
+
+  <div class="modal fade" id="edit-modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header"> 
+          <h5 class="modal-title">Edit score and comment </h5>
+        </div>
+        <div class="modal-body">
+          <table>
+            <tr>
+              <td> URL: </td>
+              <td id="modal-url-in-header"></td>
+            </tr>
+            <tr>
+              <td>Score:</td>
+              <td id="stars-form"></td>
+            </tr>
+            <tr>
+              <td>Comment:</td>
+              <td>
+                <input type="text" name="text" value="" id="comment-form">
+              </td>
+            </tr>
+          </table>
+        </div> 
+        <div class="modal-footer">
+          <input type="submit" value="Edit" id="submit-button" class="btn btn-outline-primary" data-dismiss="modal">
+          <input type="submit" value="Cancel" id="cancel-button" class="btn btn-outline-secondary" data-dismiss="modal">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../site-packages/jquery-3.5.1.min.js"></script>
+  <script src="../site-packages/bootstrap.min.js"></script>
+  <script src="../site-packages/jquery.raty.js"></script>
+  <script src="table.js"></script>
+</body>
+</html>
